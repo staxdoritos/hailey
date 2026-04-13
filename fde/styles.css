@@ -1,0 +1,52 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* centers content horizontally */
+  gap: 24px;           /* space between header, main, footer */
+  margin: 0;
+  font-family: sans-serif;
+}
+header {
+  background-color: #8e5e11;
+  width: 100%;
+  max-width: 960px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main {
+    center-text: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+    align-items: center;
+  width: 100%;
+  max-width: 960px;
+  background-color: #a09090fc;
+  padding: 24px;        /* space INSIDE the main box */
+  border-radius: 8px;   /* slight rounded corners */
+  align-content: center;
+}
+h1 {
+  font-size: 80px;
+}
+footer {
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+  background-color: #8e5e11;
+  width: 100%;
+  max-width: 960px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+html {
+ background-color: #baaf9c; 
+}
+.box-image {
+  width: 100px;
+  height: 100px;
+  object-fit: container; /* Change to 'contain' if you don't want cropping */
+}
